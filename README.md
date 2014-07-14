@@ -7,14 +7,21 @@ A simple wrapper for localStorage and sessionStorage access, with a in-memory ob
 storage.js exposes a simple API for cross browser local storage
 
 ```js
-// Store 'mickey' at 'username'
+// Store 'mickey' at 'username': ls or local or l
 storage.ls('username', 'mickey')
-// or 
 storage.local('username', 'mickey')
+storage.l('username', 'mickey')
 
 // Get 'username'
 value=storage.ls('username')
 value=storage.local('username')
+
+Same for SessionStorage:
+
+storage.ss('username', 'mickey')
+storage.session('username', 'mickey')
+storage.s('username', 'mickey')
+
 
 // Remove 'username'
 storage.remove('username')
@@ -57,6 +64,7 @@ Supported browsers
 Storage limits
 --------------
  - See http://dev-test.nemikor.com/web-storage/support-test/ for a list of limits per browser
+ - See also http://www.html5rocks.com/en/tutorials/offline/quota-research
 
 Unsupported browsers
 -------------------
