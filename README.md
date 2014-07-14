@@ -1,8 +1,9 @@
 storage.js
 ==========
 
-A simple wrapper for localStorage and sessionStorage access, with a in-memory object fallback if not present
-A don't like bloated code, so here is the smallest code to do basics with web storage.
+A simple wrapper for localStorage and sessionStorage access, with a in-memory object fallback if not present.
+
+I don't like bloated code, so here is the smallest code to do basics with web storage: 263 bytes
 
 storage.js exposes a simple API for cross browser local storage
 
