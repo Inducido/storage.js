@@ -1,7 +1,9 @@
 storage.js
 ==========
 
-A simple wrapper for localStorage access, with an in-memory object fallback if not present. And to sessionStorage as well (This was my initial need, and I did not find dedicated & small lib, so here it is).  
+A simple wrapper for **localStorage** access, with an in-memory object fallback if not present. 
+
+And to **sessionStorage** as well (This was my initial need, and I did not find dedicated and small lib, so here it is).  
 
 The smallest existing library, to do basics with web storage (data or objects): 263 bytes
 
